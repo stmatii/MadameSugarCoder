@@ -1,0 +1,63 @@
+/*Importaciones*/
+/* Smartphones (portrait and landscape) ----------- */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  body {
+    background: linear-gradient(to top left, #FF96DB, #A3F3F5); } }
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  body {
+    background: linear-gradient(to top left, #A3F3F5, #FF96DB); } }
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  body {
+    background: linear-gradient(to top left, #FF96DB, #A3F3F5); } }
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  body {
+    background: linear-gradient(to top left, #A3F3F5, #FF96DB); } }
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  body {
+    background: linear-gradient(to top left, #FF96DB, #A3F3F5); } }
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  body {
+    background: linear-gradient(to top left, #A3F3F5, #FF96DB); } }
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  body {
+    background: linear-gradient(to top left, #FF96DB, #A3F3F5); } }
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  body {
+    background: linear-gradient(to top left, #A3F3F5, #FF96DB); } }
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  body {
+    background: linear-gradient(to top left, #FF96DB, #A3F3F5); } }
+
+/*Variables*/
+/*SASS*/
+body {
+  background: linear-gradient(to top left, #A3F3F5, #FF96DB);
+  padding: 10px; }
+
+div {
+  margin: 10pt; }
+  div h2 {
+    font: normal 18pt "Roboto bold", sans-serif;
+    color: #4b157c;
+    text-align: center; }
+  div p {
+    font: normal 16px "Roboto Light", sans-serif;
+    color: black;
+    text-align: justify; }

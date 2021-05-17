@@ -1,0 +1,27 @@
+/*Importaciones*/
+@import "mediaq";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/*Variables*/
+$parrafos: normal 16px 'Roboto Light', sans-serif;
+$titulosh2: normal 18pt 'Roboto bold', sans-serif;
+
+/*SASS*/
+body{
+    background: linear-gradient(to top left,#A3F3F5, #FF96DB);
+    padding: 10px;
+}
+
+div{
+    margin: 10pt;
+    h2 {
+        font: $titulosh2;
+        color: rgb(75, 21, 124);
+        text-align: center;
+    }
+    p{
+        font: $parrafos;
+        color: rgb(0, 0, 0);
+        text-align: justify;
+    }
+}
